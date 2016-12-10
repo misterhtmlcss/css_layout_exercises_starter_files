@@ -1,0 +1,64 @@
+section>div {
+	border: 1px black solid;
+}
+
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 800px;
+	height: 500px;
+}
+
+section {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.top-row {
+	background-color: lightblue;
+	height: 200px;
+}
+.bottom-row {	
+	background-color: green;
+	height: 300px;
+}
+.flexy {
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+}
+
+.item-1 {
+	background-color: yellow;
+}
+
+.item-2 {
+	background-color: grey;
+}
+
+.item-3 {
+	background-color: grey;
+}
+
+
+.item-4 {
+	background-color: blue;
+}
+
+
+.item-5 {
+	background-color: BurlyWood;
+}
