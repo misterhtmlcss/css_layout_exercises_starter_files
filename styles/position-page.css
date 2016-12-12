@@ -1,1 +1,75 @@
+html { 
+  background: url(https://dl.dropboxusercontent.com/u/20048/outerspace.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 10px 60px;
+  width: 100%;
+  background-color: grey;
+}
+
+.icon {
+  border-radius: 50%;
+  float: left;
+  max-height:  50px;
+}
+
+ul {
+  list-style-type: none;
+  display: block-inline;
+}
+
+nav > ul > li {
+  float: left;
+  padding-left: 1rem;
+}
+
+nav > ul > li:after {
+  content:'|';
+  padding-left: 0.5rem;
+}
+
+main {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 300px;
+  border: 10px green dotted;
+
+}
+
+img.cat, img.dog{
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.cat {
+  top: -100px;
+  left: -100px;
+
+}
+
+.dog {
+  bottom: -200px;
+  right: -250px;
+
+}
+
+
 
