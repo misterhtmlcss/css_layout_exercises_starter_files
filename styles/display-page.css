@@ -7,15 +7,13 @@ body {
     height: 25%;
 }
 
-.container:after {
-    content: '';
-    display: inline-block;
-    height: 25%;
-}
-
-
 .container {
-	margin: auto;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
 	width: 800px;
 	height: 500px;
 }
@@ -30,6 +28,7 @@ body {
 .item-1, .item-2, .item-3, .item-4, .item-5 {
 	display: inline-block;
 	height: 100%;
+	border: 1px black solid;
 }
 .item-1 {
 	width: 50%;
