@@ -1,4 +1,6 @@
-
+body {
+	font-size: 0px;
+}
 .container:before {
     content: '';
     display: inline-block;
