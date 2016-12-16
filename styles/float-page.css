@@ -13,6 +13,7 @@ main {
 
 img {
   max-width: 350px;
+  padding: 10px;
 }
 .float-left {
   float: left;
